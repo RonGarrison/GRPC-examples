@@ -1,0 +1,17 @@
+{
+	"folders": [
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"python.linting.enabled": true,
+		"python.linting.lintOnSave": true,
+		"python.linting.pylintEnabled": true,
+		"python.linting.pylintArgs": ["--disable-msg", "W1202"],
+		"python.linting.flake8Enabled": true,
+		"python.linting.pycodestyleEnabled": true,
+		"python.linting.pydocstyleEnabled": true,
+		"python.linting.pydocstyleArgs": ["--ignore=D100,D203,D213,D406,D407"]
+	}
+}
